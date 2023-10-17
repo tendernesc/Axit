@@ -35,9 +35,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 79px;
     
 }
-.pricing__info{
+.priceblock{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -45,7 +46,7 @@
    
 }
 
-.pricing__info-block-top{
+.priceblock__columns-top{
     display: flex;
     width: 370px;
     height: 58px;
@@ -58,10 +59,11 @@
     font-weight: 700;
     text-transform: capitalize;
     background: #333333;
-    border-bottom: 2px solid white;
+    margin-bottom: 2px;
+    cursor: pointer;
 }
 
-.pricing__info-block-middle{
+.priceblock__columns-middle{
     display: flex;
     width: 370px;
     height: 98px;
@@ -73,10 +75,11 @@
     font-size: 36px;
     font-weight: 700;
     background: #333333;
-    border-bottom: 2px solid white;
+    margin-bottom: 2px;
+    cursor: pointer;
 }
 
-.pricing__info-block-end{
+.priceblock__columns-end{
     display: flex;
     width: 370px;
     height: 48px;
@@ -88,10 +91,11 @@
     font-size: 18px;
     background: #333333;
     font-weight: 400;
-    border-bottom: 2px solid white;
+    margin-bottom: 2px;
+    cursor: pointer;
 }
 
-.pricing__info-block-addition{
+.priceblock__columns-addition{
     display: flex;
     width: 370px;
     height: 48px;
@@ -103,17 +107,13 @@
     font-size: 18px;
     font-weight: 400;
     background-color: #FFF;
-    border-bottom: 2px solid #F5F5F5;
+    margin-bottom: 2px;
+    cursor: pointer;
 }
 
-.pricing__info-block-basic{
-    padding-top: 79px;
+.priceblock__columns_hover:hover{
+    box-shadow: 1px 6px 20px 1px red;
+    transform: translateY(-20px);
+    transition: 0.7s;
 }
 
-.pricing__info-block-optima{
-    padding-top: 59px;
-}
-
-.pricing__info-block-pro{
-    padding-top: 79px;
-}
