@@ -4,20 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-header.css">
+    <link rel="stylesheet" href="styles/style-media.css">
     <link rel="stylesheet" href="styles/style-awesome.css">
     <link rel="stylesheet" href="styles/style-tabs.css">
     <link rel="stylesheet" href="styles/style-pricing.css">
     <link rel="stylesheet" href="styles/style-customers.css">
+    <link rel="stylesheet" href="styles/style-design.css">
+    <link rel="stylesheet" href="styles/style-footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Axit</title>
+
 </head>
 <body>
+
     <header>
+
+        <section class="axit">
+            <div class="axit-header">
+            <div class="axit-logo">
+                <img class="axit-logo__image" src="images/axit.svg" alt="logo axit">
+            </div>
+            <div class="axit-nav">
+                <nav class="axit-nav-block">
+                    <a class="axit-nav-block__tap" href="">Features</a>
+                </nav>
+                <nav class="axit-nav-block">
+                    <a class="axit-nav-block__tap">About</a>
+                </nav>
+                <nav class="axit-nav-block">
+                    <a class="axit-nav-block__tap" href="#pricing-id">Pricing</a>
+                </nav>
+                <nav class="axit-nav-block">
+                    <a class="axit-nav-block__tap" href="#customers-id">Reviews</a>
+                </nav>
+                <nav class="axit-nav-block">
+                    <a class="axit-nav-block__tap">Contact</a>
+                </nav>
+            </div>
+        </div>
+        </section>
 
     </header>
 
     <main>
+
+        <section class="media">
+            <div class="media-block">
+                <div class="media-block-info">
+                    <h4 class="media-block-info__header">Social Media</h4>
+                    <h5 class="media-block-info__additional">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet.</h5>
+                </div>
+                <div class="media-link">
+                    <a class="media-link-tap" target="blank" href="https://www.facebook.com/">
+                        <img class="media-link-tap_icon" src="images/facebook.svg" alt="facebook">
+                    </a>
+                    <a class="media-link-tap" target="blank" href="https://twitter.com/">
+                        <img class="media-link-tap_icon" src="images/twitter.svg" alt="twitter">
+                    </a>
+                    <a class="media-link-tap" target="_blank" href="https://www.linkedin.com/">
+                        <img class="media-link-tap_icon" src="images/linkedin_icon.svg" alt="linkedin">
+                    </a>
+                    <a class="media-link-tap" target="_blank" href="https://ru.pinterest.com/">
+                        <img class="media-link-tap_icon" src="images/pinterest.svg" alt="pinterest">
+                    </a>
+                    <a class="media-link-tap" target="_blank" href="https://www.instagram.com/">
+                        <img  class="media-link-tap_icon" src="images/instagram.svg" alt="instagram">
+                    </a>
+                    <a class="media-link-tap" target="_blank" href="https://github.com/">
+                        <img class="media-link-tap_icon" src="images/github.svg" alt="github">
+                    </a>
+                    <a class="media-link-tap" target="_blank"  href="https://rss.com/">
+                        <img class="media-link-tap_icon" src="images/rss.svg" alt="rss">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
         <section class="tabs">
             <section class="tabs__header">
                 <div class="tabs__header-1">TAB 1</div>
@@ -33,7 +99,7 @@
                     <h5 class="tabs__info-basic">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod<br> bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br> viverra <br> justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br> penatibus et magnis dis parturient montes.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod <br> bibendum laoreet.
                     </h5> 
-                     <button class="tabs__info-button"> Download </button>
+                     <button class="tabs__info-button tabs__info-button_hover tabs__info-button_active "> Download </button>
                 </div> 
                  <img class="tabs__info-image" src="images/Statue of Liberty.jpg" alt="Statue of Liberty">
             </section>
@@ -74,7 +140,7 @@
         </section>
 
         <div class="pricing-bc">
-        <section class="pricing">
+        <section class="pricing" id="pricing-id">
             <h2 class="pricing__header">
                 PRICING OPTIONS     
             </h2>
@@ -138,7 +204,7 @@
         </section>
         </div>
 
-        <section class="customers">
+        <section class="customers" id="customers-id">
             <h2 class="customers__header">
                 what our customers are saying    
             </h2>
@@ -147,62 +213,102 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h5>
             <container class="custominfo">
-                <div class="custominfo__blocks">
-                    <h5 class="custominfo__text">Lorem ipsum dolor sit amet,<br> 
+                <div class="custominfo-blocks">
+                    <h5 class="custominfo-blocks__text">Lorem ipsum dolor sit amet,<br> 
                         consectetur adipisicing elit. Doloribus<br> 
                         accusamus expedita repellat similique<br> 
                         odio aspernatur ex, architecto eaque<br> 
                         quo suscipit.
                     </h5>
                 </div>
-                <img class="custominfo__triangle custominfo__triangle_1" src="images/triangle.png">
-                <div class="custominfo__blocks">
-                    <h5 class="custominfo__text">Lorem ipsum dolor sit amet,<br> 
+                <img class="custominfo_triangle" src="images/triangle.png">
+                <div class="custominfo-blocks">
+                    <h5 class="custominfo-blocks__text">Lorem ipsum dolor sit amet,<br> 
                         consectetur adipisicing elit. Doloribus<br> 
                         accusamus expedita repellat similique<br> 
                         odio aspernatur ex, architecto eaque<br> 
                         quo suscipit.
                     </h5>
                 </div>
-                <img class="custominfo__triangle custominfo__triangle_2" src="images/triangle.png">
-                <div class="custominfo__blocks">
-                    <h5 class="custominfo__text">Lorem ipsum dolor sit amet,<br> 
+                <img class="custominfo_triangle" src="images/triangle.png">
+                <div class="custominfo-blocks">
+                    <h5 class="custominfo-blocks__text">Lorem ipsum dolor sit amet,<br> 
                         consectetur adipisicing elit. Doloribus<br> 
                         accusamus expedita repellat similique<br> 
                         odio aspernatur ex, architecto eaque<br> 
                         quo suscipit.
                     </h5>
                 </div>
-                <img class="custominfo__triangle custominfo__triangle_3" src="images/triangle.png">
+                <img class="custominfo_triangle" src="images/triangle.png">
             </container>
             <container class="manager">
-                <div class="manager__block">
-                    <img class="manager__block_image" src="images/Davis.png">
-                    <div class="manager__block_info">
-                        <h4 class="manager__block_info-name" >Davis Rhiel Madsen</h4>
-                        <h5 class="manager__block_info-job">Manager</h5>
+                <div class="manager-block">
+                    <img class="manager-block__image" src="images/Davis.png">
+                    <div class="manager-block-info">
+                        <h4 class="manager-block-info__name" >Davis Rhiel Madsen</h4>
+                        <h5 class="manager-block-info__job">Manager</h5>
                     </div>
                 </div>
-                <div class="manager__block">
-                    <img class="manager__block_image" src="images/Jaydon.png">
-                    <div class="manager__block_info">
-                        <h4 class="manager__block_info-name" >Jaydon Rosser</h4>
-                        <h5 class="manager__block_info-job">Manager</h5>
+                <div class="manager-block">
+                    <img class="manager-block__image" src="images/Jaydon.png">
+                    <div class="manager-block-info">
+                        <h4 class="manager-block-info__name" >Jaydon Rosser</h4>
+                        <h5 class="manager-block-info__job">Manager</h5>
                     </div>
                 </div>
-                <div class="manager__block">
-                        <img class="manager__block_image" src="images/Cooper.png">
-                    <div class="manager__block_info">
-                        <h4 class="manager__block_info-name" >Cooper Dorwart</h4>
-                        <h5 class="manager__block_info-job">Manager</h5>
+                <div class="manager-block">
+                        <img class="manager-block__image" src="images/Cooper.png">
+                    <div class="manager-block-info">
+                        <h4 class="manager-block-info__name" >Cooper Dorwart</h4>
+                        <h5 class="manager-block-info__job">Manager</h5>
                     </div>
                 </div>
             </container>    
         </section>
 
-    </main>
-    <footer>
 
+        <div class="design">
+        <section class="design-block design-block_before">
+            <div class="design-block-text">
+                <h2 class="design-block-text__header">STYLISH AXURE DESIGN</h2>
+                <div class="design-block-text__line"></div>
+                <h5 class="design-block-text__info">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+                <button class="design-block-text__button design-block-text__button_hover design-block-text__button_active" >Download</button>
+            </div>
+        </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <section class="backround">
+            <div class="backround-block">
+                    <a class="backround-block-icon" target="_blank" href="https://www.facebook.com/">
+                        <img class="backround-block-icon_img" src="images/facebook.svg" alt="facebook">
+                    </a>
+                    <a class="backround-block-icon" target="_blank" href="https://twitter.com/">
+                        <img class="backround-block-icon_img" src="images/twitter.svg" alt="twitter">
+                    </a>
+                    <a class="backround-block-icon" target="_blank" href="https://www.linkedin.com/">
+                        <img class="backround-block-icon_img" src="images/linkedin_icon.svg" alt="linkedin">
+                    </a>
+                    <a class="backround-block-icon" target="_blank" href="https://ru.pinterest.com/">
+                        <img class="backround-block-icon_img" src="images/pinterest.svg" alt="pinterest">
+                    </a>
+                    <a class="backround-block-icon" target="_blank" href="https://www.instagram.com/">
+                        <img  class="backround-block-icon_img" src="images/instagram.svg" alt="instagram">
+                    </a>
+                    <a class="backround-block-icon" target="_blank" href="https://github.com/">
+                        <img class="backround-block-icon_img" src="images/github.svg" alt="github">
+                    </a>
+                    <a class="backround-block-icon" target="_blank"  href="https://rss.com/">
+                        <img class="backround-block-icon_img" src="images/rss.svg" alt="rss">
+                    </a>
+            </div>
+            <div class="backround__axure">
+                © 2015 Axure Themes
+            </div>
+        </section>
     </footer>
 </body>
 </html>
