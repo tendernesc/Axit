@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style-header.css">
+    <link rel="stylesheet" href="styles/style-banner.css">
     <link rel="stylesheet" href="styles/style-media.css">
     <link rel="stylesheet" href="styles/style-awesome.css">
     <link rel="stylesheet" href="styles/style-tabs.css">
     <link rel="stylesheet" href="styles/style-pricing.css">
     <link rel="stylesheet" href="styles/style-customers.css">
     <link rel="stylesheet" href="styles/style-design.css">
+    <link rel="stylesheet" href="styles/style-contact.css">
     <link rel="stylesheet" href="styles/style-footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -20,7 +22,6 @@
 <body>
 
     <header>
-
         <section class="axit">
             <div class="axit-header">
             <div class="axit-logo">
@@ -48,7 +49,31 @@
 
     </header>
 
-    <main>
+    <main class="">
+        <section class="banner">
+            <div class="banner-wrapper">
+                <container class="banner-info">
+                    <img class="banner-info__image" src="images/banner-logo.svg" alt="logo">
+                    <div class="banner-info__modern"> MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL <br> PROTOTYPES </div>
+                    <div class="banner-info__line"></div>
+                    <h5 class="banner-info__lorem">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</h5>
+                    <button class="banner-info__button banner-info__button_hover banner-info__button_active" >Download</button>
+                </container>
+                <container class="banner-registr">
+                    <div class="banner-registr-block">
+                        <h4 class="banner-registr-block__info">
+                            Try Your <span class="banner-registr-block__info__span">FREE</span> Trial Today
+                        </h4>
+                        <form class="banner-registr-block__input">
+                            <input class="banner-registr-block__input__text" type="text" name="name" placeholder="Name">
+                            <input class="banner-registr-block__input__text" type="text" name="email" placeholder="Email">
+                            <input class="banner-registr-block__input__text" type="password" name="password" placeholder="Password">
+                        </form>
+                        <button class="banner-registr-block__button banner-registr-block__button_hover ">Get Started</button>
+                    </div>
+                </container>
+            </div>
+        </section>
 
         <section class="media">
             <div class="media-block">
@@ -277,6 +302,27 @@
             </div>
         </section>
         </div>
+
+        <section class="contact">
+            <h2 class="contact__header">
+                Contact us   
+            </h2>
+            <div class="contact__line"></div>
+            <h5 class="contact__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h5>
+            <div class="input">
+                <form class="input-data">
+                    <input class="input-data__text" type="text" name="name" placeholder="Name">
+                    <input class="input-data__text" type="text" name="email" placeholder="Email">
+                    <input class="input-data__text" type="password" name="password" placeholder="Password">
+                </form>
+                <form class="input-message">
+                    <input class="input-message__text" type="text" name="message" placeholder="Message">
+                </form>
+            </div>
+            <button class="input-button input-button_hover">Send Message</button>
+        </section>
 
     </main>
 
