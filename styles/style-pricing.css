@@ -117,3 +117,71 @@
     transition: 0.6s;
 }
 
+@media (max-width:1190px) {
+    .pricing{
+        width: 95%;
+    }
+    .pricing__line{
+        width: 144px;
+    }
+    .priceblock__columns-top{
+        width: 317px;
+        height: 58px;
+        font-size: 24px;
+    }
+    
+    .priceblock__columns-middle{
+        width: 317px;
+        height: 98px;
+        font-size: 36px;
+    }
+    
+    .priceblock__columns-end{
+        width: 317px;
+        height: 48px;
+        font-size: 18px;
+    }
+    
+    .priceblock__columns-addition{
+        width: 317px;
+        height: 48px;
+        font-size: 18px;
+    }
+    .priceblock{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+    .priceblock__columns{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width:348px){
+    .pricing__header{
+        font-size: 22px;
+    }
+    .priceblock__columns-top{
+        width: 288px;
+        height: 47px;
+        font-size: 24px;
+    }
+    
+    .priceblock__columns-middle{
+        width: 288px;
+        height: 78px;
+        font-size: 36px;
+    }
+    
+    .priceblock__columns-end{
+        width: 288px;
+        height: 39px;
+        font-size: 18px;
+    }
+    
+    .priceblock__columns-addition{
+        width: 288px;
+        font-size: 18px;
+        height: 39px;
+    }
+}

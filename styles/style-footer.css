@@ -35,3 +35,30 @@
     cursor: pointer;
 }
 
+@media(max-width:1172px){
+    .backround-block{
+        width: 95%;
+    }
+}
+
+@media(max-width:1026px){
+    .backround-block-icon_img{
+        width: 45px;
+        height: 45px;
+    }
+    .backround__axure{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:600px){
+    .backround-block-icon_img{
+        width: 20.583px;
+        height: 20.583px;
+        margin-left: 8.4px;
+        margin-right: 8.4px;
+    }
+    .backround__axure{
+        font-size: 14px;
+    }
+}

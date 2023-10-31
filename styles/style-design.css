@@ -71,8 +71,6 @@
 }
 
 .design-block-text__button_hover:hover{
-    width: 370px;
-    height: 58px;
     margin: 0 auto;
     border: 2px solid rgba(236, 121, 121, 1);
     color: rgba(236, 121, 121, 1);
@@ -85,8 +83,6 @@
 }
 
 .design-block-text__button_active:active{
-    width: 370px;
-    height: 58px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Open Sans' sans-serif;
@@ -96,4 +92,47 @@
     border: 2px solid #AB4949;
     background: #AB4949;
     color: #FFF;
+}
+
+@media (max-width:1185px){
+    .design-block-text{
+        width: 95%;
+    }  
+}
+
+@media(max-width:500px){
+.design-block-text__header{
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px
+}
+.design-block-text__line{
+    width: 134px;
+}
+.design-block-text__info{
+    font-size: 14px;
+    padding-bottom: 65px
+}
+.design-block-text__button{
+    width: 287px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.design-block-text{
+    padding-top: 0px;
+}
+.design-block-text__button_hover:hover{
+    width: 287px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.design-block-text__button_active:active{
+    width: 287px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 }
