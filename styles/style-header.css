@@ -69,5 +69,48 @@
     .axit-nav-block{
         display: none;
     }
-    
+}
+
+@media (max-width:890px){
+    .banner-wrapper{
+        flex-wrap: wrap;
+    }
+    .banner-info__image{
+       margin-top: 120px;
+    }
+    .banner-info__modern{
+        width: 288px;
+        font-size: 36px;
+        margin-top: 23px;
+    }
+    .banner-info__line{
+        width: 288px;
+    }
+    .banner-info__button{
+        width: 183.099px;
+        margin-bottom: 25px;
+    }
+    .banner-info__lorem{
+        width: 288px;
+        font-size: 14px;
+    }
+    .banner-registr{
+        width: 288px;
+        height: 381px;
+        margin-top: 130px;
+    }
+    .banner-registr-block__info{
+        width: 240px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .banner-registr-block__input__text{
+        width: 240px;
+        font-size: 12px;
+    }
+    .banner-registr-block__button{
+        width: 288px;
+        margin-top: 70px;
+        font-size: 15px; 
+}
 }

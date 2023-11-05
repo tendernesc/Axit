@@ -91,7 +91,7 @@
     flex-direction: row;
 }
 
-@media (max-width:1170px){
+@media (max-width:1190px){
     .tabs{
         width: 95%;
         }
@@ -130,12 +130,12 @@
 }
 }
 
-@media (max-width:1054px){
+@media (max-width:1072px){
     .tabs__info-text{
         margin-left: 0 auto;
     }
 }
-@media (max-width:1054px){
+@media (max-width:1072px){
     .tabs__info-image{
        display: none;
 }
@@ -165,7 +165,7 @@
 
 
 
-@media (max-width:660px){
+@media (max-width:668px){
     .tabs{
         width: 95%;
         }

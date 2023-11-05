@@ -94,11 +94,16 @@
     color: #FFF;
 }
 
-@media (max-width:1185px){
+
+
+@media (max-width:1190px){
     .design-block-text{
         width: 95%;
     }  
-}
+    .media-block{
+        width: 95%;
+    }
+    }
 
 @media(max-width:500px){
 .design-block-text__header{
@@ -134,5 +139,21 @@
     font-size: 18px;
     margin-top: 20px;
 }
+}
 
+@media (max-width: 908x){
+.media-link-tap_icon {
+    justify-content: space-between;
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 44px;
+}
+}
+@media (max-width: 892px){
+.media-block {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
 }
